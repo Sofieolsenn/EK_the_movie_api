@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Now playing</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <h1>The Movie Database</h1>
+    </header>
+    <nav>
+        <ul>
+          <li><a href="#" data-type="NOW_PLAYING">Now playing</a></li>
+          <li><a href="#" data-type="POPULAR">Popular</a></li>
+          <li><a href="#" data-type="TOP_RATED">Top rated</a></li>
+          <li><a href="#" data-type="UPCOMING">Upcoming</a></li>
+        </ul>
+      </nav>
+    <main>
+        <!--Javascript template should go here.-->
+        <template id="movieTemplate" class="movieTemplate">
+            <article class="movie">
+                <h3 class="title"></h3>
+                <div class="movieContainer">
+                    <picture>
+                        <img src="" alt="">
+                    </picture>
+                    <div>
+                        <p class="overview"></p>
+                        <div>
+                            <p class="otitle"><b>Original title:</b> </p>
+                            <p class="release-date"><b>Release date:</b> </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </template>
+
+        <!--Page content goes here-->
+        <h2>Now playing</h2>
+        <section id="movieList">
+        </section>
+    </main>
+    <footer><p>&copy; 2025 - Sofie Olsen</p></footer>
+</body>
+</html>

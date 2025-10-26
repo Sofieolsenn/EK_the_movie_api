@@ -1,0 +1,35 @@
+/* use clamp(), min(), max() */
+:root {
+    /*colors*/
+    --white-color: rgb(235, 229, 215);
+    --black-color: rgb(41, 38, 38);
+    
+    --main-header-bg-color: rgb(72, 13, 13);
+    --secondary-header-bg-color: rgb(142, 76, 76);
+    --article-bg-color: rgb(231, 223, 210);
+
+    --link-color-default: rgb(229, 142, 142);
+    --link-color-active: rgb(225, 225, 203);
+
+    /*font types*/
+    --header-font: sans-serif;
+    --sub-header-font: sans-serif;
+
+    /*responsive font sizes*/
+    --h1-font-size: clamp(1.5rem, 2vw, 5rem);
+    --h2-font-size: clamp(0.9rem, 2vw, 3rem);
+    --p-font-size: clamp(1rem, 1vw, 2rem);;
+
+    /*responsive padding*/
+    --header-padding: clamp(0.7rem, 2vw, 1.3rem);
+    --footer-padding: clamp(1rem, 2vw, 1.2rem);
+    --nav-padding: clamp(0.4rem, 2vw, 0.6rem);
+    --article-padding: clamp(0.5rem, 2vw, 1rem);
+    --main-padding: clamp(0.5rem, 1vw, 2rem);
+
+    /*border radius*/
+    --border-radius: 1em;
+
+    /*width min, max()*/ 
+    --main-width: 90%;
+}
